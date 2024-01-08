@@ -35,8 +35,9 @@
 .holiday {
     margin-top: 120px;
     width: 1650px;
-    
-    
+    margin-bottom: 0px;
+
+
 }
 
 .holiday-img {
@@ -44,8 +45,8 @@
     height: 500px;
     fill: lightgray 50% / cover no-repeat;
     padding: 0px 400px;
-    
-   
+
+
 }
 
 .holiday-title {
@@ -59,28 +60,78 @@
     font-weight: 700;
     margin-bottom: 30px;
 }
+
 .holiday p {
     color: #F00;
-text-align: center;
-font-size: 24px;
-font-weight: 500;
-margin-top: 0px;
-margin-bottom: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
 .holiday h3 {
     color: #070211;
-text-align: center;
-font-size: 48p;
-font-weight: 700;
-margin-top: 10px;
+    text-align: center;
+    font-size: 48p;
+    font-weight: 700;
+    margin-top: 10px;
 }
+
 main {
     max-width: 1650px;
     margin: 0px auto;
 }
-.party-content{
-    width: 1320px;
-height: 600px;
-background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../B9A1-New-Year-New-Mission-main/resources/Vectorrr.png');
- 
+
+.party-content {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../B9A1-New-Year-New-Mission-main/resources/Vectorrr.png');
+    display: flex;
+    background-repeat: no-repeat;
+
+
+}
+
+.party-content img {
+    display: flex;
+    width: 310px;
+    height: 460px;
+    padding: 50px 100px 50px 0px;
+    
+}
+.party-content h3{
+
+    padding-top: 70px;
+    padding-left: 80px;
+    color: #FFF;
+font-size: 60px;
+font-weight: 700; 
+letter-spacing: 5px;
+width: 600px;
+
+}
+.party {
+    width: 1400px;
+    margin: auto;
+    margin-top: 120px;
+
+
+}
+.party-content p {
+    width: 800px;
+    color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-weight: 400;
+line-height: 17px;
+padding-left: 80px;
+}
+.party-content button {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    padding-top: 50px;
+    padding-left: 100px;
+
 }
