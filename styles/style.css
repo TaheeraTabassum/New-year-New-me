@@ -96,19 +96,21 @@ main {
     width: 310px;
     height: 460px;
     padding: 50px 100px 50px 0px;
-    
+
 }
-.party-content h3{
+
+.party-content h3 {
 
     padding-top: 70px;
     padding-left: 80px;
     color: #FFF;
-font-size: 60px;
-font-weight: 700; 
-letter-spacing: 5px;
-width: 600px;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    width: 600px;
 
 }
+
 .party {
     width: 1400px;
     margin: auto;
@@ -116,14 +118,16 @@ width: 600px;
 
 
 }
+
 .party-content p {
     width: 800px;
     color: rgba(255, 255, 255, 0.80);
-font-size: 18px;
-font-weight: 400;
-line-height: 17px;
-padding-left: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17px;
+    padding-left: 80px;
 }
+
 .party-content button {
     color: #FFF;
     text-align: center;
@@ -135,13 +139,15 @@ padding-left: 80px;
     padding-left: 100px;
 
 }
-.party-info h4 span{
+
+.party-info h4 span {
     color: #F00;
-text-align: center;
-font-size: 32px;
-font-weight: 600;  
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
 }
-.party-info{
+
+.party-info {
     text-align: center;
     background-color: bisque;
     width: 1400px;
@@ -150,21 +156,124 @@ font-weight: 600;
     margin-top: 120px;
     padding-top: 60px;
 
-    
+
 }
-.party-info button{
+
+.party-info button {
     color: #FFF;
-padding: 16px 32px;
-align-items: center;
-gap: 10px;
-border-radius: 8px;
-background: #F00;
-border: none;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
 }
-.info-content{
-    
+
+.info-content {
+
     color: #070211;
-font-size: 32px;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.gift-column {
+    display: grid;
+    gap: 24px;
+
+}
+
+.gift {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+
+
+}
+
+.portfolio {
+    width: 1400px;
+    height: 1350px;
+    background: #FFF;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.gift img {
+    width: 475px;
+    height: 500px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 0px -35.755px / 100% 142.115% no-repeat;
+    border: none;
+
+}
+
+.portfolio-title p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.portfolio-title h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio-title h4 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.subscribe-info {
+    text-align: center;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1400px;
+    height: 482px;
+    margin: auto;
+    margin-top: 120px;
+    padding-top: 60px;
+}
+
+.subscribe-title h2 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.subscribe-title p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+}
+.subscribe button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+text-align: center;
 font-weight: 600;
-padding-bottom: 50px;
+
+}
+.subscribe input{
+    border-radius: 50px 0px 0px 50px;
+background: #FFF;
+width: 500px;
+height: 70px;
+padding-left: 30px;
+border: none;
+
 }
