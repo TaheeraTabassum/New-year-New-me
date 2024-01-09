@@ -257,6 +257,7 @@ main {
     display: flex;
     justify-content: center;
 }
+
 .subscribe button {
     width: 210px;
     height: 72px;
@@ -264,39 +265,43 @@ main {
     background: #F00;
     border: none;
     color: #FFF;
-text-align: center;
-font-weight: 600;
+    text-align: center;
+    font-weight: 600;
 
 }
-.subscribe input{
+
+.subscribe input {
     border-radius: 50px 0px 0px 50px;
-background: #FFF;
-width: 500px;
-height: 70px;
-padding-left: 30px;
-border: none;
+    background: #FFF;
+    width: 500px;
+    height: 70px;
+    padding-left: 30px;
+    border: none;
 
 }
-.footer{
+
+.footer {
     background: #070211;
     width: 100%;
     height: 100%;
     margin-top: 120px;
     position: absolute;
-    
+
 }
-.contact{
+
+.contact {
     color: #FFF;
-font-size: 24px;
-font-weight: 500;
-line-height: 40px;
-display: block;
-width: 300px;
-padding-top: 120px;
-padding-left: 60%;
-position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    display: block;
+    width: 300px;
+    padding-top: 120px;
+    padding-left: 60%;
+    position: relative;
 }
-.upper{
+
+.upper {
     display: flex;
     padding: 120px 0px 400px 120px;
     color: #FFF;
@@ -304,30 +309,146 @@ position: relative;
     font-weight: 500;
     max-width: 350px;
     max-height: 80px;
-    
+
 }
 
-.icon img{
+.icon img {
     width: 24px;
-height: 24px;
+    height: 24px;
 }
-.footer-head{
+
+.footer-head {
     display: flex;
 
 }
-.social-field{
+
+.social-field {
     text-align: center;
     justify-content: center;
 }
 
-.foot{
+.foot {
     color: #FFF;
-font-size: 24px;
-font-weight: 500;
-display: flex;
-justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
 
 }
-.images{
+
+.images {
     margin-bottom: 200px;
+}
+
+.bonus {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+
+}
+
+.left h4 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.left h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.left p {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.right h2{
+    color: #F00;
+font-size: 48px;
+font-weight: 700;
+}
+.right p{
+    max-width: 270px;
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.right img{
+    width: 140px;
+height: 140px;
+
+}
+.center-image{
+border: 23px solid #F00;
+border-radius: 50%;
+width: 450px;
+height: 450px;
+padding: 47px;
+}
+.left{
+    padding-top: 50px;
+}
+.right{
+    padding-top: 50px;
+}
+.sale{
+    width: 1400px;
+    margin: 0 auto;
+    height: 940px;
+   background-image:url('../B9A1-New-Year-New-Mission-main/resources/Rectangle\ 2.png'); 
+   background-repeat: no-repeat;
+  background-size: 1400px 203px;
+  background-position: bottom left;
+
+}
+.sale-title h4{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+
+}
+.sale-title h1{
+    color: #F00;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+
+}
+.sale-title p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+}
+
+.girl{
+    width: 429px;
+padding-bottom: 500px;
+padding-top: 33px;
+float: right;
+}
+.percent{
+    display: flex;
+margin: auto;
+    
+}
+.box{
+    max-width: 665px;
+    height: 700px;
+}
+.fifty{
+    width: 306.048px;
+height: 305.048px;
+position: relative;
+  left: 136px;
+  top: 100.98px;
 }
