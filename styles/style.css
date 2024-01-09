@@ -338,6 +338,11 @@ main {
 
 .images {
     margin-bottom: 200px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 665px;
+    bottom: 90px;
 }
 
 .bonus {
